@@ -1,8 +1,6 @@
 from data import TestDataBase
-from conftest import db
 import pytest
 import allure
-
 
 class TestDB:
     @allure.title('Проверка работы метода available_buns, получающего список доступных булок из базы')

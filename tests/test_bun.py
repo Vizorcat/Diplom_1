@@ -1,5 +1,7 @@
-from conftest import *
+import pytest
 import allure
+from data import Data1, Data2
+
 
 
 class TestBun:
